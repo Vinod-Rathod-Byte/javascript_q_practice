@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>hello</h1>
+    <script>
+      //1. Write a program that uses a loop to calculate the sum of numbers from 1 to 50.
+
+      let i = 1;
+      let sum = 0;
+      while (i <= 50) {
+        sum += i;
+        i++;
+      }
+      console.log("calculate the sum of number is : ", sum);
+
+      // Using a loop, print the multiplication table of a user given number (e.g., 7) up to 10.
+
+      let num = 7;
+      for (let i = 1; i <= 10; i++) {
+        console.log(num, "*", i, "=", num * i);
+      }
+
+      // Using a loop, count how many even numbers exist between 1 and a user given number and display the count.
+
+      let n = 8;
+      let count = 0;
+      for (let i = 1; i <= n; i++) {
+        if (i % 2 == 0) {
+          count++;
+        }
+      }
+      console.log("Total Even Nubers are : ", count);
+
+      // Using a loop, find the factorial of a user given number (e.g., 6).
+
+      let number = 6;
+      fact_n = 1;
+      for (let i = 1; i <= number; i++) {
+        fact_n *= i;
+      }
+      console.log("the factorial of 6 is : ", fact_n);
+
+      // Write a program that starts from a user given number (e.g., 20) and counts down to 1, printing each number.
+
+      let no = 20;
+      for (let i = no; i >= 1; i--) {
+        console.log(i);
+      }
+    </script>
+  </body>
+</html>
